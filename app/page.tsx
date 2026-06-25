@@ -47,7 +47,7 @@ export default function Home() {
 
       <section className="relative min-h-screen overflow-hidden">
         <div className="absolute inset-0">
-          <Photo name="DSC_5116" />
+          <Photo name="DSC_5399" />
           <div className="absolute inset-0 bg-gradient-to-r from-[#180d05]/90 via-[#180d05]/60 to-[#180d05]/15" />
           <div className="absolute inset-0 bg-gradient-to-t from-[#180d05]/55 to-transparent" />
         </div>
