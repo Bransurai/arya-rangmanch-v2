@@ -165,38 +165,46 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="arya" className="px-5 py-16 md:px-16 md:py-24">
-        <div className="mx-auto grid max-w-7xl gap-10 md:grid-cols-[1fr_1.15fr]">
-          <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
-            {["DSC_5196", "DSC_5212", "DSC_5269", "DSC_5344"].map((p) => (
-              <Photo key={p} name={p} className="h-72 rounded-3xl" />
-            ))}
-          </div>
+     <section id="arya" className="px-5 py-16 md:px-16 md:py-24">
+  <div className="mx-auto max-w-7xl">
+    <div className="mb-10 max-w-3xl">
+      <p className="text-xs uppercase tracking-[0.3em] text-[#b8860b] sm:text-sm">
+        The Dancer
+      </p>
+      <h2 className="mt-4 font-serif text-4xl sm:text-5xl">
+        About Arya
+      </h2>
+    </div>
 
-          <div>
-            <p className="text-xs uppercase tracking-[0.3em] text-[#b8860b] sm:text-sm">
-              The Dancer
-            </p>
-            <h2 className="mt-4 font-serif text-4xl sm:text-5xl">
-              About Arya
-            </h2>
-            <p className="mt-6 text-base leading-8 text-[#4d321c] sm:text-lg sm:leading-9">
-              Arya B. Bhavsar is fifteen years old and has been preparing for
-              this moment for a decade. She began her Kathak training at age five
-              under Guru Ruchi Lamba of the Indian Dance Training Center.
-            </p>
-            <p className="mt-5 text-base leading-8 text-[#4d321c] sm:text-lg sm:leading-9">
-              Over ten years, Arya has studied Kathak&apos;s intricate footwork,
-              expressive gestures, graceful spins, and emotional storytelling.
-              Her Rangmanch Pravesh marks her debut as a solo artist.
-            </p>
-            <p className="mt-5 text-base leading-8 text-[#4d321c] sm:text-lg sm:leading-9">
-              As Arya ascends her Rangmanch stage, she seeks blessings and best
-              wishes for her performance today and for her onward dance journey.
-            </p>
-          </div>
+    <div className="grid gap-8 lg:grid-cols-[0.95fr_1.05fr] lg:items-center">
+      <div className="grid gap-4">
+        <Photo
+          name="DSC_5196"
+          className="h-[420px] rounded-[2rem] object-cover sm:h-[520px] lg:h-[620px]"
+        />
+
+        <div className="grid grid-cols-2 gap-4">
+          <Photo
+            name="DSC_5212"
+            className="h-44 rounded-3xl object-cover sm:h-64"
+          />
+          <Photo
+            name="DSC_5269"
+            className="h-44 rounded-3xl object-cover sm:h-64"
+          />
         </div>
-      </section>
+      </div>
+
+      <div className="rounded-[2rem] border border-[#d7b56d]/50 bg-white/70 p-6 shadow-sm sm:p-8 lg:p-10">
+<p className="text-base leading-8 text-[#4d321c] sm:text-lg sm:leading-9"> Arya B. Bhavsar is fifteen years old and has been preparing for this moment for a decade. She began her Kathak training at the age of five under the guidance of Guru Ruchi Lamba at the Indian Dance Training Center, where she developed a deep appreciation for the discipline, artistry, and tradition of Kathak. Over the years, what began as a childhood passion has grown into a lifelong commitment to one of India's most celebrated classical dance forms. </p>
+
+<p className="mt-5 text-base leading-8 text-[#4d321c] sm:text-lg sm:leading-9"> Through years of dedicated training, Arya has studied intricate footwork, graceful spins, expressive storytelling, and rhythmic precision while also embracing opportunities to serve as a leader within her school and community. Her Rangmanch Pravesh represents the culmination of more than ten years of perseverance, countless hours of practice, and the unwavering support of her Guru, family, teachers, and friends. </p>
+<p className="mt-5 text-base leading-8 text-[#4d321c] sm:text-lg sm:leading-9"> As Arya steps onto the stage this evening, she celebrates not only a major milestone in her artistic journey, but also the beginning of a lifelong pursuit of learning, performing, and preserving the timeless tradition of Kathak. She is grateful for everyone who has encouraged and inspired her along the way. </p>
+        
+      </div>
+    </div>
+  </div>
+</section>
 
       <section id="artists" className="bg-white px-5 py-16 md:px-16 md:py-24">
         <div className="mx-auto max-w-6xl">
