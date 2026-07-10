@@ -84,7 +84,7 @@ const artists = [
   ],
   [
     "Dani Ekbote",
-    "Dani Ekbote is a tabla artist and percussionist learning under Shri Hemant Ekbote and legendary tabla maestro Pandit Yogesh Samsi, with extensive formative training through Ustad Zakir Hussain’s exclusive tabla workshops. While tabla remains his primary instrument, he also performs on dholak, dhol, and drum set. He works across Indian classical, Sufi, Bollywood, jazz, fusion settings, and more. His performance work has taken him across the globe, and he also works as a studio recording musician on commercial music projects.",
+    "Dani Ekbote is a tabla artist and percussionist trained under Shri Hemant Ekbote, Pandit Yogesh Samsi, and through workshops with Ustad Zakir Hussain. He performs across Indian classical, Sufi, Bollywood, jazz, and fusion music, and also works as a studio recording musician.",
   ],
 ];
 
@@ -156,7 +156,7 @@ export default function Home() {
       <section className="relative min-h-screen overflow-hidden">
         <div className="absolute inset-0">
           <Photo
-            name="DSC_5121"
+            name="image"
             className="object-[58%_center] sm:object-center"
           />
 
