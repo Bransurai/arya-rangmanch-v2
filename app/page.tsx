@@ -156,7 +156,7 @@ export default function Home() {
       <section className="relative min-h-screen overflow-hidden">
         <div className="absolute inset-0">
           <Photo
-            name="cover"
+            name="DSC_5121"
             className="object-[58%_center] sm:object-center"
           />
 
