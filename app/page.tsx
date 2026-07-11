@@ -97,7 +97,7 @@ const program = [
     "Laya: Vilambit, Madhya, Drut • Sool Taal and Teentaal",
   ],
   ["Mhaara Ghat Maa", "Taal: Bhajani"],
-  ["Twin Dedication Dance", "A Special Dedication"],
+  ["Jodiya Dedication Dance", "A Special Dedication"],
   ["Concept Piece", "A Surprise Presentation"],
 ];
 
